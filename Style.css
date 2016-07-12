@@ -1,0 +1,153 @@
+i.material-icons{
+	font-size: 40px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+} 
+
+body{
+    background-color: #DEAF00;
+}
+
+nav.sidenav {
+	font-family: "Impact";
+	background-color: #262626;
+    height: 100%;
+    width: 0;
+    position: fixed;
+	z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.2s;
+    padding-top: 5px;
+	font-size: 55px; 
+}
+
+.sidenav  a{
+	font-family: "Impact";
+    text-decoration: none;
+    font-size: 30px;
+    color: #DEAF00;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #ebcf66;
+}
+
+@media screen and (max-height: 450px) {
+   .sidenav {padding-top: 30px;}
+   .sidenav a {font-size: 30px;}
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li:active ul {
+    display: block;
+}
+
+ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+
+ul li ul li { 
+    display: block; 
+}
+
+ul li ul li a {
+    display:block;
+} 
+
+ul.1 li{
+    margin: 20px;
+}
+
+header{
+	color: #DEAF00;
+	font-family: "Impact";
+	background-color: #262626;
+    display: inline-block;
+}
+
+header.head{
+    font-weight: bold;
+	font-size: 30px; 
+	opacity: 1; 
+	right: 0; 
+	left: 0; 
+	top: 0; 
+	width: 100%; 
+	position: fixed;
+}
+
+span.menu{
+    border-color: #DEAF00;
+}
+
+span :hover, .offcanvas a:focus{
+    color: #ebcf66;
+}
+
+a.head{
+	text-decoration: none;
+    color: #DEAF00;
+    position: absolute;
+    top: 20px;
+}
+
+a:hover{
+    color: #ebcf66;
+}
+
+img.Logo {
+    position: absolute;
+    bottom: -40px;
+}
+
+span.icomoon-search{
+	font-family: "Impact";
+	font-size: 10px;
+}
+
+div.body{
+    margin-top: 50px;
+    color: #262626;
+    font-family: "Impact";
+    font-size: 20px;
+    text-align: center;
+	margin-bottom: 20px;
+}
+
+h1{
+	color: #262626;
+	font-size: 120px;
+    text-align: center;
+}
+
+footer{
+	position: absolute;
+	font-size: 15px;
+    font-family: "Impact";
+	color: #DEAF00;
+	text-align: center;
+    background-color: #262626;	
+    left: 0;
+    right: 0;
+}
+
+span.footer{
+    color: #DEAF00;
+    text-decoration: underline;
+}
