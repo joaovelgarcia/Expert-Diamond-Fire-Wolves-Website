@@ -9,7 +9,7 @@ body{
 
 nav.sidenav {
 	font-family: Impact;
-	background-color: #DEAF00;
+	background-color: #262626;
     height: 100%;
 	width: 0;
     position: fixed;
@@ -30,7 +30,7 @@ nav.sidenav {
 	font-family: Impact;
     text-decoration: none;
     font-size: 25px;
-    color: #262626;
+    color: #DEAF00;
     display: block;
     transition: 0.2s;
     overflow-x: hidden;
@@ -58,7 +58,7 @@ ul.header li{
 }
 
 header.head{
-	background-color: #DEAF00;
+	background-color: #262626;
         position:fixed;
         display: inline;
         width: 100%;
@@ -68,17 +68,9 @@ header.head{
         left: 0;
         font-size: 25px;
         font-weight: bold;
-        color: #262626;
+        color: #DEAF00;
         font-family: Impact;  
         z-index: 1;
-		text-align: center;
-}
-
-img.img_nav{
-        font-size: 30px;
-        margin-top: 20px;
-        margin-left: 20px;
-        
 }
 
 i.material-icons{
@@ -98,22 +90,27 @@ span :hover, .offcanvas a:focus{
 
 a.head{
 	text-decoration: none;
-    color: #262626;
+    color: #DEAF00;
 }
 
 a.head1{
       text-decoration: none;
-      color: #262626;
-      display:none;
+      color: #DEAF00;
+     display:none;
 }
 
 a:hover{
     color: #ebcf66;
 }
 
+span.icomoon-search{
+	font-family: Impact;
+	font-size: 10px;
+}
+
 div.body{
     margin-top: 50px;
-    color: #262626;
+    color: #DEAF00;
     font-family: Impact;
     font-size: 20px;
     text-align: center;
@@ -124,7 +121,7 @@ div.body{
 }
 
 h1{
-	color: #262626;
+	color: #DEAF00;
 	font-size: 120px;
     text-align: center;
 }
@@ -133,8 +130,8 @@ div.footer{
 
 	font-size: 15px;
     font-family: Impact;
-	color: #262626;
-    background-color: #DEAF00;
+	color: #DEAF00;
+    background-color: #262626;
     padding-top: 20px;
     padding-left: 70px;
     padding-right: 70px;
@@ -173,26 +170,26 @@ footer{
 	position: static;
 	font-size: 15px;
     font-family: Impact;
-	color: #262626;
+	color: #DEAF00;
 	text-align: center;
 	width: 100%;
 	
 }
 
 a.footer{
-    color: #262626;
+    color: #DEAF00;
     text-decoration: underline;
 }
 
 @media screen and (max-width: 830px) {
-
+ 
 a.menu{
      visibility: visible;
 }
 
 a.head1{
       text-decoration: none;
-      color: #262626;
+      color: #DEAF00;
      display: inline;
 }
 
@@ -208,10 +205,6 @@ div.footer{
 text-align:center;
 }
 
-header.head{
-		text-align: left;
-}
-
 }
 
 ul.header{
@@ -222,9 +215,39 @@ ul.header{
     overflow: hidden;
 }
 
+
+
 li a, .dropbtn {
     display: inline-block;
-    color: #262626;
+    color: #DEAF00;
     text-align: left;
     text-decoration: none;
 }
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #262626;
+    min-width: 160px;
+    
+}
+
+.dropdown-content a {
+    color: #DEAF00;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	color: #ebcf66;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
